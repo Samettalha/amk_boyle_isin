@@ -14,7 +14,7 @@ export default function Zones() {
 
 const groundInteractiveGames = [
   <ZoneCard
-    key="hexball-ground"
+    key="naber"
     bgImage="/images/kurt1.jpeg"
     iconSrc="/images/kurt1.jpeg"
     title={
@@ -26,11 +26,11 @@ const groundInteractiveGames = [
     playerCount="2-6"
     sessionTime="5"
     price="125"
-    videoSrc="/videos/"
+    videoSrc="/videos/video.mp4"
   />,
   <ZoneCard
     key="wayfinder-ground"
-    bgImage="/images/"
+    bgImage="/images/video.mp4"
     iconSrc="/images/"
     title={
       <p className="font-normal">
@@ -131,6 +131,6 @@ const rgbPanelGames = [
 
 const tabData = [
   { name: "Bilgisayar Dalları", content: groundInteractiveGames },
-  { name: "Elektronik Dallarıı", content: wallInteractiveGames },
+  { name: "Elektronik Dalları", content: wallInteractiveGames },
   { name: "Mekanik Dalları", content: rgbPanelGames },
 ];
