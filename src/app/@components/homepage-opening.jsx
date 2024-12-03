@@ -1,6 +1,10 @@
 import VideoBackground from "@/components/backgrounds/video-background";
 import Link from "next/link";
+<<<<<<< HEAD
 export default function HomePage() {
+=======
+export default function HomePageOpening() {
+>>>>>>> 74ba1781088275b62aebd3b2e66fb90c90ffb959
   return (
     <div className="w-full h-screen ">
       <VideoBackground videoSrc={"videos/video.mp4"}>
@@ -28,9 +32,14 @@ export default function HomePage() {
               sınırlarını zorlayacak,hem öğrenirken hemde eğleniceksiniz
             </p>
             <div className="flex flex-col sm:flex-row gap-5">
+<<<<<<< HEAD
               <Link href="/elektronik">
                 <button
 
+=======
+              <Link href="/zonelar">
+                <button
+>>>>>>> 74ba1781088275b62aebd3b2e66fb90c90ffb959
                   className="text-sm text-white font-semibold h-[47px] w-full sm:w-[215px] custom-border"
                   style={{
                     borderRadius: "40px",
@@ -40,7 +49,10 @@ export default function HomePage() {
                   }}
                 >
                   Daha Fazla Öğren
+<<<<<<< HEAD
 
+=======
+>>>>>>> 74ba1781088275b62aebd3b2e66fb90c90ffb959
                 </button>
               </Link>
               <Link href="/iletisim">

@@ -103,7 +103,11 @@ export default function Navbar() {
 
           <div className="min-w-[100px] text-center">
             <Link
+<<<<<<< HEAD
               href="/elektronik"
+=======
+              href="/zonelar"
+>>>>>>> 74ba1781088275b62aebd3b2e66fb90c90ffb959
               className={`transition-all duration-300 ease-in-out hover:text-orange-500 ${isActive(
                 "/naberabi"
               )}`}
